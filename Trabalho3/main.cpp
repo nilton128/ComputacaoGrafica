@@ -31,5 +31,13 @@ void Inicializa() //Rotina Para Inicialização de Parâmetros
 
 
 int main(){
-
+    glutInitWindowSize(700,600);
+    glutInitWindowPosition(0,0);
+    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+    glutCreateWindow("Nilton Rodrigues Pereira - 5º Período SI UNIMONTES");
+    glutDisplayFunc(Desenha);
+    glutKeyboardFunc(Teclado);
+    glutIdleFunc(Calcula);
+    Inicializa();
+    glutMainLoop();
 }
