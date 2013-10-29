@@ -1,4 +1,4 @@
-ComputacaoGrafica
+Computação Gráfica
 =================
 
 Trabalho apresentado ao professor José Expedito de Freitas para obtenção de nota parcial da disciplina
